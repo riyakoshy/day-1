@@ -25,29 +25,54 @@ body{
 	margin: 0;
 }
 
+.topnav {
+	text-align: center;
+	background-color: red;
+}
+
+.topnav a {
+	color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 header {
-	background-color: lightblue;
+	font-family: Monospace;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	background-color: black;
 	grid-column: span 3;
 	padding: 16px
 }
 
 nav {
-	background-color: violet;
+	font-size: 24px;
+	color: white;
+	background-color: black;
 	padding: 16px
 }
 
 main {
-	background-color: lightgreen;
+	background-color: red;
 	padding: 16px
 }
 
+img {
+	width: 100%;
+}
+
 aside {
-	background-color: lightpink;
+	text-align: center;
+	color: white;
+	background-color: black;
 	padding: 16px
 }
 
 footer {
-	background-color: gold;
+	text-align: center;
+	background-color: violet;
 	grid-column: span 3;
 	padding: 16px
 }
@@ -55,7 +80,7 @@ footer {
 .container {
 	border: 1px solid rgba(0,0,0, 0.4);
 	display: grid;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	grid-template-columns: 20% auto 20%;
 	grid-template-rows: auto 1fr auto;
 }
